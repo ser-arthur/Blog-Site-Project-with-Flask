@@ -1,10 +1,11 @@
-# Kobby's First Blog Site
+# NebulaNook - Blog Site
 
 ![Project Image](./static/assets/img/resized-home-bg.jpg)
 
 **A simple and powerful Flask-based blog site where users can create, edit, and share their thoughts.**
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
@@ -30,52 +31,52 @@ Welcome to Kobby's Blog, a web application built with Flask, Bootstrap, and SQLA
 
 1. **Clone the repository to your local machine:**
 
-    ```bash
-    git clone https://github.com/your-username/your-repository.git
-    ```
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   ```
 
 2. **Set up a virtual environment:**
 
-    ```bash
-    python -m venv venv
-    ```
+   ```bash
+   python -m venv venv
+   ```
 
 3. **Activate the virtual environment:**
 
-    - On Windows:
+   - On Windows:
 
-        ```bash
-        .\venv\Scripts\activate
-        ```
+     ```bash
+     .\venv\Scripts\activate
+     ```
 
-    - On macOS/Linux:
+   - On macOS/Linux:
 
-        ```bash
-        source venv/bin/activate
-        ```
+     ```bash
+     source venv/bin/activate
+     ```
 
 4. **Install dependencies:**
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
 1. **Create and apply database migrations:**
 
-    ```bash
-    flask db init
-    flask db upgrade
-    ```
+   ```bash
+   flask db init
+   flask db upgrade
+   ```
 
 2. **Configure environment variables, especially `DB_URI`, for your database connection.**
 
 3. **Run the Flask application:**
 
-    ```bash
-    python main.py
-    ```
+   ```bash
+   python main.py
+   ```
 
 Visit [http://localhost:5000](http://localhost:5000) in your web browser.
 
@@ -88,8 +89,9 @@ app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_URI", "sqlite:///post
 ```
 
 ## Contributing
+
 Contributions are welcome! Feel free to open issues, suggest improvements, or submit pull requests. If you encounter any issues, please let us know.
 
 ## License
-This project is licensed under the MIT License. You are free to use, modify, and distribute the code for your own projects.
 
+This project is licensed under the MIT License. You are free to use, modify, and distribute the code for your own projects.
