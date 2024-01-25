@@ -1,5 +1,5 @@
-{% from "bootstrap/form.html" import render_form %}
-{% block content %} {% include "header.html" %}
+{% from "bootstrap/form.html" import render_form %} {% block content %} {%
+include "header.html" %}
 
 <!-- Page Header -->
 <header
@@ -11,7 +11,7 @@
       <div class="col-md-10 col-lg-8 col-xl-7">
         <div class="page-heading">
           <h1>Register</h1>
-          <span class="subheading">Start Contributing to the Blog!</span>
+          <span class="subheading">Join the cosmic conversation!</span>
         </div>
       </div>
     </div>
@@ -23,7 +23,8 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <!--TODO: render your registration form here-->
-        {{ render_form(form, novalidate=True, button_map={"submit": "primary"}) }}
+        {{ render_form(form, novalidate=True, button_map={"submit": "primary"})
+        }}
       </div>
     </div>
   </div>
